@@ -518,6 +518,10 @@ header {
   padding-bottom: 10px;
 }
 
+.title-h3.min-height {
+  min-height: 103px;
+}
+
 .tick {
   font-size: 18px;
   border-radius: 50px;
