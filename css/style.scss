@@ -474,6 +474,10 @@ body {
   color: $primaryTextColor;
   font-size: 1rem;
 }
+header {
+  padding: 20px 0;
+  text-align: center;
+}
 .container {
   max-width: 100%;
   width: 1140px;
@@ -512,7 +516,41 @@ body {
 }
 .title-h2 {
   font-size: 1.4rem;
+  padding-bottom: 30px;
+  text-align: center;
+  font-weight: 800;
+}
+.title-h3 {
+  line-height: 1.8rem;
+  font-weight: 600;
   padding-bottom: 10px;
+}
+.tick {
+  font-size: 18px;
+  border-radius: 50px;
+  background-color: #0096a5;
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  margin-right: 10px;
+  justify-content: center;
+
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.order-ul {
+  padding: 15px;
+  li {
+    display: inline-flex;
+    span:nth-child(2) {
+      width: 85%;
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
 }
 .para {
   font-weight: 300;
@@ -809,19 +847,10 @@ input[type="checkbox"].css-checkbox:checked + label.css-label:after {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  .width-50:nth-child(2) {
+
+  .width-50 {
     padding: 0 40px;
     align-self: center;
-    text-align: center;
-  }
-  .width-50.camera-page {
-    align-self: flex-start;
-    text-align: left;
-    padding-top: 50px;
-  }
-  .width-50.doc-type-page {
-    align-self: flex-start;
-    text-align: left;
   }
 }
 .doc-info {
