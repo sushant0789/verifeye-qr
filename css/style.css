@@ -506,7 +506,7 @@ header {
 }
 
 .title-h2 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding-bottom: 30px;
   text-align: center;
   font-weight: 800;
@@ -893,9 +893,6 @@ input[type="checkbox"].css-checkbox:checked + label.css-label:after {
 
 .min-height-div .width-50 {
   padding: 0 40px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
 }
 
 .doc-info {
