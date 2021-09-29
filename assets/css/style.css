@@ -87,8 +87,8 @@ form fieldset.active {
 
 .title-h3 {
   font-size: 22px;
-  margin: 0;
   height: 50px;
+  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,13 +103,14 @@ form fieldset.active {
 .title-h4 {
   font-size: 16px;
   font-weight: 600;
-  padding: 10px 0;
+  padding: 0 0 10px;
 }
 
 .title-h5 {
   font-size: 14px;
   font-weight: 400;
   padding: 10px 0;
+  line-height: 18px;
 }
 
 .title-h5 span {
@@ -158,8 +159,17 @@ form fieldset.active {
   line-height: 18px;
 }
 
+.steps-ul li ul.padding-top20,
 .padding-top20 {
   padding-top: 20px;
+}
+
+.padding-bottom20 {
+  padding-bottom: 20px;
+}
+
+.padding-top0 {
+  padding-top: 0;
 }
 
 .mobile-ul {
@@ -177,12 +187,21 @@ form fieldset.active {
 }
 
 .mobile-ul li img {
-  max-height: 270px;
+  max-height: 240px;
 }
 
 .mobile-ul li .title-h5 {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.mobile-ul li .title-h5.smaller {
+  font-size: 13px;
+}
+
+.width-60 {
+  width: 60%;
+  margin: auto;
 }
 
 .tick,
