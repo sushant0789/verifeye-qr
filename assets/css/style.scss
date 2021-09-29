@@ -55,8 +55,8 @@ ul {
   margin-top: -400px;
   text-align: center;
   &.double {
-    width: 480px;
-    margin-left: -240px;
+    width: 560px;
+    margin-left: -280px;
   }
 }
 .logo {
@@ -119,6 +119,7 @@ form {
       }
       img {
         max-width: 200px;
+        max-height: 300px;
       }
     }
     ul {
@@ -140,6 +141,13 @@ form {
   padding: 0 0 20px;
   li {
     width: 50%;
+    img {
+      max-height: 270px;
+    }
+    .title-h5 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
   }
 }
 .tick,
@@ -212,30 +220,16 @@ form {
   color: red;
 }
 .camera-ul {
-  display: flex;
   li {
     list-style: none;
     flex: 1;
-    width: 100%;
     justify-content: center;
     align-items: center;
     border: 1px dashed #999;
     display: flex;
     align-items: center;
-    height: 215px;
-    margin: 30px 0;
     border-radius: 10px;
-  }
-  h6 {
-    position: relative;
-    display: inline-block;
-    &.selfie {
-      margin: 0 0 0 -15px;
-    }
-    img {
-      max-width: 140px;
-      max-height: 140px;
-    }
+    padding: 60px 10px;
   }
 }
 .camera-ul2 {
@@ -429,5 +423,18 @@ form {
   }
   .popup-main {
     margin: 15px 0 0;
+  }
+  .popup.double {
+    width: 100%;
+    margin-left: auto;
+    padding: 0 15px;
+    left: auto;
+  }
+  .steps-ul {
+    height: auto;
+  }
+  .mobile-ul {
+    flex-direction: column;
+    align-items: center;
   }
 }

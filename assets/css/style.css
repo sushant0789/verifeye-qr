@@ -58,8 +58,8 @@ ul {
 }
 
 .popup.double {
-  width: 480px;
-  margin-left: -240px;
+  width: 560px;
+  margin-left: -280px;
 }
 
 .logo {
@@ -146,6 +146,7 @@ form fieldset.active {
 
 .steps-ul li h6 img {
   max-width: 200px;
+  max-height: 300px;
 }
 
 .steps-ul li ul {
@@ -173,6 +174,15 @@ form fieldset.active {
 
 .mobile-ul li {
   width: 50%;
+}
+
+.mobile-ul li img {
+  max-height: 270px;
+}
+
+.mobile-ul li .title-h5 {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .tick,
@@ -261,18 +271,11 @@ form fieldset.active {
   color: red;
 }
 
-.camera-ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .camera-ul li {
   list-style: none;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -284,23 +287,8 @@ form fieldset.active {
   display: -ms-flexbox;
   display: flex;
   align-items: center;
-  height: 215px;
-  margin: 30px 0;
   border-radius: 10px;
-}
-
-.camera-ul h6 {
-  position: relative;
-  display: inline-block;
-}
-
-.camera-ul h6.selfie {
-  margin: 0 0 0 -15px;
-}
-
-.camera-ul h6 img {
-  max-width: 140px;
-  max-height: 140px;
+  padding: 60px 10px;
 }
 
 .camera-ul2 {
@@ -568,6 +556,24 @@ form fieldset.active {
   }
   .popup-main {
     margin: 15px 0 0;
+  }
+  .popup.double {
+    width: 100%;
+    margin-left: auto;
+    padding: 0 15px;
+    left: auto;
+  }
+  .steps-ul {
+    height: auto;
+  }
+  .mobile-ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
